@@ -1,0 +1,35 @@
+.app {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.search-bar-container {
+    padding: 5vh 0;
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    align-items: center;
+}
+
+.search-result-display {
+    margin: 10px;
+    padding: 10px;
+}
+
+/* .search-type {
+
+} */
+
+.search-type input {
+    width: 20px;
+}
